@@ -1,0 +1,61 @@
+
+body {
+
+}
+
+.container-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 5vh;
+  padding-top: 30vh;
+  width: 100%;
+}
+.container-text
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+/*p {
+
+  font-size: 30px;
+}
+p:first-of-type {
+  padding-top: 35vh;
+  font-size: 30px;
+}
+*/
+/* html{
+  text-align: center;
+} */
+
+#word, #score {
+  /* border-radius: 5px;
+  margin-bottom: 5px; */
+}
+
+#word:hover, #score:hover {
+
+  height: 20px;
+}
+
+#textinput {
+  border-radius: 5px;
+}
+#submit, #analyze {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+#submit:hover, #analyze:hover {
+  color: black;
+  background-color: white;
+
+  border-radius: 5px;
+}
